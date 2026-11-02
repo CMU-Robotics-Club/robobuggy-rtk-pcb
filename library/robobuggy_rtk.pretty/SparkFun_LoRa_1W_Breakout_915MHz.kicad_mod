@@ -1,0 +1,228 @@
+(footprint "SparkFun_LoRa_1W_Breakout_915MHz"
+  (version 20241229)
+  (generator "kicad-mcp")
+  (generator_version "9.0")
+  (layer "F.Cu")
+  (descr "SparkFun LoRa 1W Breakout 915MHz (SPX-18572, EBYTE E19-915M30S / SX1276), 1.5x2.0in board, two 1x9 0.1in headers 1.4in apart, 4x 3.3mm standoff holes. RP-SMA edge connector overhangs at -Y. Pads 1-9 = SparkFun J1 pins 1-9 (RXEN,TXEN,CS,SDI,SDO,SCK,3V3,5V,GND); pads 10-18 = J2 pins 1-9 (GND,D5,D4,D3,D2,D1,D0,RST,GND). Geometry from sparkfunX/LoRa_1W_Breakout Hardware/915MHz Eagle board.")
+  (tags "LoRa SX1276 E19-915M30S SparkFun breakout 915MHz")
+
+  (property "Reference" "REF**" (at 0 -2.54 0)
+    (layer "F.SilkS")
+    (uuid "24dad9ec-e3ad-4c7c-acd6-d912858a7ee8")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Value" "SparkFun_LoRa_1W_Breakout_915MHz" (at 0 2.54 0)
+    (layer "F.Fab")
+    (uuid "ba3f03de-b13a-41b3-ab44-6477e7b8ed1d")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (property "Datasheet" "" (at 0 0 0)
+    (layer "F.Fab")
+    (uuid "d9747d45-6df2-44ea-995d-69f8b8ad653e")
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+
+  (fp_rect
+    (start -19.3 -33.4)
+    (end 19.3 25.65)
+    (stroke (width 0.05) (type default))
+    (fill none)
+    (layer "F.CrtYd")
+    (uuid "a5206d59-34cd-403b-91cd-38b8ec8ff83d")
+  )
+
+  (fp_rect
+    (start -19.17 -25.52)
+    (end 19.17 25.52)
+    (stroke (width 0.12) (type default))
+    (fill none)
+    (layer "F.SilkS")
+    (uuid "80d6c077-2640-4344-9aec-5e37a854898d")
+  )
+
+  (fp_rect
+    (start -19.05 -25.4)
+    (end 19.05 25.4)
+    (stroke (width 0.1) (type default))
+    (fill none)
+    (layer "F.Fab")
+    (uuid "36e9ba26-cab7-4e16-b52d-db35b0fbd7ac")
+  )
+
+  (pad "1" thru_hole rect
+    (at 17.78 -1.27)
+    (size 1.88 1.88)
+    (drill 1.016)
+    (layers "*.Cu" "*.Mask")
+    (uuid "a265540f-1e87-451e-a4d6-5f279c56c2ec")
+  )
+
+  (pad "2" thru_hole circle
+    (at 17.78 1.27)
+    (size 1.88 1.88)
+    (drill 1.016)
+    (layers "*.Cu" "*.Mask")
+    (uuid "c7efbcd0-eb63-4a7c-a402-1eb7c8b834b9")
+  )
+
+  (pad "3" thru_hole circle
+    (at 17.78 3.81)
+    (size 1.88 1.88)
+    (drill 1.016)
+    (layers "*.Cu" "*.Mask")
+    (uuid "64668017-d20b-446d-97a0-91a3919df47a")
+  )
+
+  (pad "4" thru_hole circle
+    (at 17.78 6.35)
+    (size 1.88 1.88)
+    (drill 1.016)
+    (layers "*.Cu" "*.Mask")
+    (uuid "33f29380-7095-4e86-934b-087100c40dbd")
+  )
+
+  (pad "5" thru_hole circle
+    (at 17.78 8.89)
+    (size 1.88 1.88)
+    (drill 1.016)
+    (layers "*.Cu" "*.Mask")
+    (uuid "52fea969-7f75-4a61-9c9c-515cb4bcc8cb")
+  )
+
+  (pad "6" thru_hole circle
+    (at 17.78 11.43)
+    (size 1.88 1.88)
+    (drill 1.016)
+    (layers "*.Cu" "*.Mask")
+    (uuid "9b8a301c-bfb7-4ce5-bcdd-357c3d610ec6")
+  )
+
+  (pad "7" thru_hole circle
+    (at 17.78 13.97)
+    (size 1.88 1.88)
+    (drill 1.016)
+    (layers "*.Cu" "*.Mask")
+    (uuid "51d860a8-fa46-4766-9e0e-4bea869b781c")
+  )
+
+  (pad "8" thru_hole circle
+    (at 17.78 16.51)
+    (size 1.88 1.88)
+    (drill 1.016)
+    (layers "*.Cu" "*.Mask")
+    (uuid "3028e27c-bfdf-4b11-9c9c-121c34919984")
+  )
+
+  (pad "9" thru_hole circle
+    (at 17.78 19.05)
+    (size 1.88 1.88)
+    (drill 1.016)
+    (layers "*.Cu" "*.Mask")
+    (uuid "2ab754f1-60df-463c-9aa1-89393c9da73c")
+  )
+
+  (pad "10" thru_hole rect
+    (at -17.78 -1.27)
+    (size 1.88 1.88)
+    (drill 1.016)
+    (layers "*.Cu" "*.Mask")
+    (uuid "ecb1200c-395e-410b-a3ed-aaefd0b85ca9")
+  )
+
+  (pad "11" thru_hole circle
+    (at -17.78 1.27)
+    (size 1.88 1.88)
+    (drill 1.016)
+    (layers "*.Cu" "*.Mask")
+    (uuid "9e2a1a16-80ce-4873-8e03-10815460f74c")
+  )
+
+  (pad "12" thru_hole circle
+    (at -17.78 3.81)
+    (size 1.88 1.88)
+    (drill 1.016)
+    (layers "*.Cu" "*.Mask")
+    (uuid "eb6ba1ba-825f-4a60-a7b8-50dfde48a065")
+  )
+
+  (pad "13" thru_hole circle
+    (at -17.78 6.35)
+    (size 1.88 1.88)
+    (drill 1.016)
+    (layers "*.Cu" "*.Mask")
+    (uuid "00bf5f39-222c-4538-9986-8cda1401ce5f")
+  )
+
+  (pad "14" thru_hole circle
+    (at -17.78 8.89)
+    (size 1.88 1.88)
+    (drill 1.016)
+    (layers "*.Cu" "*.Mask")
+    (uuid "8f7077f8-69ee-40a1-8dab-bb1cee6f48cf")
+  )
+
+  (pad "15" thru_hole circle
+    (at -17.78 11.43)
+    (size 1.88 1.88)
+    (drill 1.016)
+    (layers "*.Cu" "*.Mask")
+    (uuid "2f7c9a80-af5d-47fe-80a1-74bd3c9d28dd")
+  )
+
+  (pad "16" thru_hole circle
+    (at -17.78 13.97)
+    (size 1.88 1.88)
+    (drill 1.016)
+    (layers "*.Cu" "*.Mask")
+    (uuid "b1d20df0-cc96-40a5-9c96-8184896bb19f")
+  )
+
+  (pad "17" thru_hole circle
+    (at -17.78 16.51)
+    (size 1.88 1.88)
+    (drill 1.016)
+    (layers "*.Cu" "*.Mask")
+    (uuid "939b0dc6-de2f-4fff-8ecc-133f62106a4f")
+  )
+
+  (pad "18" thru_hole circle
+    (at -17.78 19.05)
+    (size 1.88 1.88)
+    (drill 1.016)
+    (layers "*.Cu" "*.Mask")
+    (uuid "e742643b-9097-45f6-9aee-699546b79398")
+  )
+
+  (pad "" np_thru_hole circle
+    (at -16.51 22.86)
+    (size 3.302 3.302)
+    (drill 3.302)
+    (layers "*.Cu" "*.Mask")
+    (uuid "0535c2d6-6360-473f-98fb-2cbb3410c7ce")
+  )
+
+  (pad "" np_thru_hole circle
+    (at -16.51 -22.86)
+    (size 3.302 3.302)
+    (drill 3.302)
+    (layers "*.Cu" "*.Mask")
+    (uuid "1c553482-466c-47c8-8c12-8f11efabf501")
+  )
+
+  (pad "" np_thru_hole circle
+    (at 16.51 -22.86)
+    (size 3.302 3.302)
+    (drill 3.302)
+    (layers "*.Cu" "*.Mask")
+    (uuid "a62c121c-8338-4728-95f5-9f7d76772838")
+  )
+
+  (pad "" np_thru_hole circle
+    (at 16.51 22.86)
+    (size 3.302 3.302)
+    (drill 3.302)
+    (layers "*.Cu" "*.Mask")
+    (uuid "07163cc0-0e41-44e2-a0a5-a82078db3d21")
+  )
+
+)

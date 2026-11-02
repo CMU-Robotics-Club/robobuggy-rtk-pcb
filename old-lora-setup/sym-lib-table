@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "robobuggy_rtk")(type "KiCad")(uri "${KIPRJMOD}/../library/robobuggy_rtk.kicad_sym")(options "")(descr "RoboBuggy RTK base station parts"))
+)

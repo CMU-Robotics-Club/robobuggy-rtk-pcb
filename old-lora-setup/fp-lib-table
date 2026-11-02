@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "robobuggy_rtk")(type "KiCad")(uri "${KIPRJMOD}/../library/robobuggy_rtk.pretty")(options "")(descr "RoboBuggy RTK base station footprints"))
+)
